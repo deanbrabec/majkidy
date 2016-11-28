@@ -216,5 +216,16 @@ if(function_exists("register_field_group"))
 	));
 }
 
+
 include_once('advanced-custom-fields/acf.php');
 define( 'ACF_LITE', true );
+
+
+
+function custom_login_logo() {
+    echo '<style type="text/css">
+        h1 a { background-image:url(wp-content/themes/majkidy_template/img/login.png) !important;}
+    </style>';
+}
+
+add_action('login_head', 'custom_login_logo');
