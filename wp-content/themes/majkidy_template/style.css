@@ -1,0 +1,258 @@
+/*
+Theme Name: Majkidy Template
+Theme URI: http://suitableapps.cz/
+Author: SuitableApps
+Author URI: http://suitableapps.cz/
+*/
+body{
+    background-image: url(img/background.png);
+}
+.majkidy-brand{
+    color: #00b252;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 30px;
+    font-weight: 600;
+}
+.majkidy-brand-text-pad{
+    padding-left: 15px;
+}
+.majkidy-image-crop{
+    max-width: 169px;
+    height: auto;
+    position: relative;
+    overflow: hidden;
+    margin: 0 auto;
+}
+.majkidy-image-croper{ 
+    display: block;
+    margin: 0 auto;
+    height: 169px;
+    width: 169px;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    border-radius: 50%;
+    background:url("img/child-images-021.jpg") center no-repeat;
+    background-size:cover;
+}
+.majkidy-brand-footer{
+    color: #FFF;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 30px;
+    font-weight: 600;
+    float: right;
+    margin-top: 35px;
+    margin-right: 15px;
+}
+.majkidy-edit-profile{
+    color: #444;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 15px;
+    font-weight: 600;
+    float: left;
+}
+.majkidy-log-out{
+    color: white;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+    font-weight: 600;
+    float: right;
+    background-color: #00b252;
+    border-radius: 9px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 30px;
+    padding-right: 30px;
+    margin-top: -10px;
+    margin-left: 15px;
+}
+.majkidy-class{
+    color: #00b252;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 30px;
+    font-weight: 600;
+}
+.majkidy-name{
+    color: #444;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 52px;
+    font-weight: 600;
+    margin-bottom: 0px;
+}
+.majkidy-profile-menu{
+    background-color: #00b252;
+    color: #FFF;
+    position:relative;
+    min-height:52px;
+    margin-bottom:0px;
+}
+.majkidy-profile-menu li{
+    position: relative;
+    display: block;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    float: left;
+}
+
+@media only screen and (max-width: 767px) {
+    .majkidy-profile-menu li{
+    position: relative;
+    display: block;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    float: none;
+}
+    .majkidy-navbar-header{
+        margin-left: 20px!important;
+        margin-right: 20px!important;  
+    }
+    .majkidy-profile-menu-left{
+        margin-left: 20px!important;
+    }
+    .majkidy-profile-menu-right{
+        margin-right: 20px!important;
+    }
+    .majkidy-profile-menu-right li{
+        text-align: right!important;
+    }
+    .majkidy-profile-menu-left li{
+        text-align: left!important;
+    }
+    .navbar-collapse{
+        padding-right: 20px!important;
+        padding-left: 20px!important;
+    }
+    .navbar-collapse a{
+        margin-top: 25px!important;
+    }
+    .navbar-collapse span{
+    margin-bottom: 15px!important;}
+    
+}
+
+.majkidy-nav-float-left{
+    float: left;
+}
+.majkidy-nav-float-right{
+    float: right;
+}
+.left{
+    margin-right: 20px;
+}
+.right{
+    margin-left: 20px;
+}
+
+.majkidy-profile-menu a{
+    color: #FFF;
+    font-family: "Open Sans";
+    font-size: 15px;
+    font-weight: 700;
+}
+.majkidy-profile-menu a:hover{
+    color: #FFF;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 15px;
+    font-weight: 700;
+}
+.majkidy-profile-menu a:visited{
+    color: #FFF;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 15px;
+    font-weight: 700;
+}
+.majkidy-profile-menu ul{
+    margin: 0;
+    padding: 0px;
+}
+.majkidy-profile-menu-left{
+    float: left;
+}
+.majkidy-profile-menu-right{
+    float: right
+}
+footer{
+    background-color: #00b252;
+    height: 112px;
+    margin-top: 40px;
+}
+footer img{
+    float: right;
+    margin-top: 30px;
+    margin-right: 15px;
+}
+.majkidy-timeline-item{
+    background-color: #FFF;
+    margin-top: 35px;
+    box-shadow: 0 5px 5px rgba(0, 0, 0, 0.08);
+    padding-left: 0px;
+    padding-right: 0px;
+}
+.majkidy-timeline-item-title{
+    margin-left: 25px;
+    margin-top: 25px;
+    color: #444;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 24px;
+    font-weight: 600;
+}
+.majkidy-timeline-item-date{
+    margin-left: 25px;
+    margin-top: 15px;
+    color: #00b252;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 15px;
+    font-weight: 600;
+    line-height: 24px;
+}
+.majkidy-timeline-item-text{
+    margin-left: 25px;
+    margin-top: 20px;
+    margin-right: 20px;
+    color: #444;
+    font-family: "Open Sans";
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 24px;
+    text-align: justify;
+}
+.majkidy-timeline-item-more{
+    margin-left: 25px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    color: #00b252;
+    font-family: "Open Sans";
+    font-size: 15px;
+    font-weight: 600;
+    line-height: 24px;
+    text-decoration: underline;
+}
+.majkidy-timeline-item-more a{
+    color: #00b252;
+}
+.majkidy-timeline-item-more a:hover{
+    color: #00b252;
+}
+.majkidy-timeline-item-more a:visited{
+    color: #00b252;
+}
+.majkidy-prilohy{
+    background-color: #00b252;
+    color: #FFF;
+    padding-top: 15px;  
+    padding-bottom: 15px;
+    padding-left: 40px;
+  /*  margin-left: -15px;
+    margin-right: -15px;
+    */
+}
+.majkidy-prilohy a{
+    color: #FFF;
+}
+.majkidy-prilohy a:hover{
+    color: #FFF;
+}
+.majkidy-prilohy a:visited{
+    color: #FFF;
+}
