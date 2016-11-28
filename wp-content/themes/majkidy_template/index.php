@@ -13,7 +13,7 @@
     <link href="https://fonts.googleapis.com/css?family=Open+Sans&amp;subset=latin-ext" rel="stylesheet">
     <link rel="shortcut icon" href="wp-content/themes/majkidy_template/img/favicon.ico" type="image/x-icon">
 </head>
-<body>
+<body> 
     <nav class="navbar navbar-default">
         <div class="container">
             <div class="navbar-header majkidy-navbar-header">
