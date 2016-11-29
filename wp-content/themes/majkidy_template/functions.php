@@ -216,11 +216,12 @@ if(function_exists("register_field_group"))
 	));
 }
 
+//ACF - vypnutí ve backend
 
 include_once('advanced-custom-fields/acf.php');
 define( 'ACF_LITE', true );
 
-
+//Změna loga na login page
 
 function custom_login_logo() {
     echo '<style type="text/css">
@@ -229,3 +230,6 @@ function custom_login_logo() {
 }
 
 add_action('login_head', 'custom_login_logo');
+
+
+
